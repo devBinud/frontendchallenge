@@ -1,0 +1,187 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(17, 17, 141);
+    padding:0 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content:space-between;
+}
+.home{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(60, 111, 145);
+    display: flex;
+}
+.home .left{
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(118, 152, 202);
+}
+span{
+    color:rgb(224, 60, 60);
+}
+.home .middle{
+    width: 60%;
+    height: 90vh;
+    background-color: aliceblue;
+}
+.home .right{
+    width: 20%;
+    height: 90vh;
+    background-color: rgb(118, 152, 202);
+}
+.logo-title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.logo-title img{
+    margin-right: 10px;
+}
+.logo-title h2{
+    color:#fff;
+}
+.links ul{
+    display: flex;
+}
+.links ul li{
+    list-style: none;
+}
+.links ul li{
+    padding:12px 20px;
+}
+.links ul li a{
+    color:#fff;
+    font-size: 16px;
+    text-decoration: none;
+}
+/* left col styling starts*/
+.left ul{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    padding:10px 40px;
+}
+.left ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(7, 9, 10) ;
+}
+.left ul li a{
+    color:rgb(32, 29, 29);
+    text-decoration: none;
+}
+.left p{
+    text-align: center;
+    align-items: center;
+    padding-top: 10px;
+    font-size: 18px;
+}
+/* left col styling ends  */
+/* right col styling starts */
+.right p{
+    padding:10px 40px;
+}
+.right ul{
+    display: flex;
+    flex-direction: column;
+    /* margin-top: 30px; */
+    padding:10px 40px;
+}
+.right ul li{
+    list-style: none;
+    margin-bottom: 10px;
+    border-bottom: 1px solid rgb(7, 9, 10) ;
+}
+.right ul li a{
+    color:rgb(32, 29, 29);
+    text-decoration: none;
+}
+/* messages parts starts */
+.messages{
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,0.3);
+    min-height: 55vh;
+    width: 90%;
+    padding:5px 10px;
+}
+.card{
+    padding-left: 20px;
+    box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0,0.3);
+}
+.card-title{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.card-title img{
+    margin-right: 10px;
+}
+.p{
+    margin-top: 5px;
+}
+.p i{
+    font-size: 14px;
+    padding:6px 10px;
+}
+/* messages parts ends */
+/* right col styling ends */
+/* middle parts styling starts */
+.middle{
+    padding:20px 150px;
+    width: 100%;
+    height: 100vh;
+}
+.middle-top{
+    width: 100%;
+    /* background-color:aquamarine; */
+}
+.image{
+    margin-top: 30px;
+}
+.middle-bottom{
+    /* background-color: blueviolet; */
+    width: 60%;
+    height: 10vh;
+    padding:10px 0px;
+}
+.middle-bottom ul{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+}
+.middle-bottom ul li{
+    list-style: none;
+}
+.middle-bottom ul li a{
+    color:#000;
+    text-decoration: none;
+}
+.middle-bottom ul li a:hover{
+    color:blue;
+}
+/* middle parts styling ends */
+/* comment section input part starts */
+.comment{
+   margin-top: 20px;
+}
+.comment input{
+    padding:6px 100px;
+    border:1px solid #000;
+}
+/* comment section input part ends here  */
